@@ -31,7 +31,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-darkgrey text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-darkgrey text-black">
       <div className="p-4 rounded-lg bg-gradient-to-r from-orange to-purple shadow-lg">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
